@@ -3,70 +3,142 @@
   <head>
     <meta charset="UTF-8">
     <title>Splat</title>
-    <link rel="stylesheet" href="css/sass.css">
+    <link href="frameworks/960/960.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/import.css">
   </head>
   <body>
-    <div class="wrapper">
-      <header class="splat-header">
-	
-	<div class="logo">
-	  <img class="logo__logo-pic" alt="" src=""/>
+    
+    <header class="splat-header ">
+      <div class="container_12">
+	<div class="logo grid_2">
+	  <img class="logo__logo-pic" alt="Logo" src="/img/splatLogo.png"/>
+	  <p class="logo__tagline">Professional oral care</p>
 	</div>
 	
-	<ul class="lang">
-	  <li class="lang__eng"></li>
-	  <li class="lang__rus"></li>
+	<ul class="lang grid_2">
+	  <li class="lang__list"><a href="">in English</a></li>
+	  <li class="lang__list"><a href="">in Etruscan</a></li>
 	</ul>
 	
-	<nav class="site-nav">
-	  <li class="site-nav__1"></li>
-	  <li class="site-nav__2"></li>
-	  <li class="site-nav__3"></li>
-	  <li class="site-nav__4"></li>
-	  <li class="site-nav__5"></li>
-	  <li class="site-nav__6"></li>
+	<nav class="site-nav grid_5">
+	  <li class="site-nav__content"><a href="">About us</a></li>
+	  <li class="site-nav__content"><a href="">Produce</a></li>
+	  <li class="site-nav__content"><a href="">Your choose</a></li>
+	  <li class="site-nav__content"><a href="">Community</a></li>
+	  <li class="site-nav__content"><a href="">Partnership</a></li>
+	  <li class="site-nav__content"><a href="">Career</a></li>
+	  <li class="site-nav__content"><a href="">Contancts</a></li>
+	  
 	</nav>
 	
-	<ul class="soc-links">
-	  <li><a class="soc-links__fb" href=""></a></li>
-	  <li><a class="soc-links__vk" href=""></a></li>
+	<ul class="soc-links ">
+	  <li class="soc-links__list">Follow us on <a href="">Facebook</a></li>
+	  <li class="soc-links__list">Follow us on <a href="">Facebook</a></li>
 	</ul>
 	
-	<form class="srch-panel" action="">
+	<form class="srch-panel " action="">
 	  <input class="srch-panel__input" name="" type="text" value=""/>
-	  <button class="srch-panel__submitt">Search</button>
 	</form>
-	
-      </header>
+      </div>	
+    </header>
 
       <main class="main-splat">
-	div.descriptions-slider>ul.description-slider__list>li.description-slider__slide$*6>figure.description-slider__content>img+h2+figcaption
-	<div class="slider-bar"></div>
+	
+	<div class="modal-fixed-message">
+	  <form action="" method="GET">
+            <input name="" type="email" value=""/>
+	    <input name="" type="phone" value=""/>
+	    <input name="" type="text" value=""/>
+	    <input name="" type="submit" value=""/>
+	  </form>
+	  
+	</div>
+	<div class="">
+	  
+	<div class="description-slider container_12">
+	  
+	  <ul class="description-slider__list ">
+            <li class="description-slider__slide grid_2">
+              <figure class="description-slider__content">
+                <img class="description-slider__icon"alt="" src=""/>
+                <h2 class="description-slider__slide-name">Idead</h2>
+                <figcaption class="description-slider__description"> Amet venenatis urna cursus eget nunc scelerisque viverra mauris, in aliquam sem fringilla? Tincidunt arcu, non sodales neque sodales ut etiam sit amet nisl purus, in mollis nunc sed id.</figcaption>
+              </figure>
+            </li>
+            <li class="description-slider__slide grid_2">
+              <figure class="description-slider__content">
+                <img class="description-slider__icon"alt="" src=""/>
+                <h2 class="description-slider__slide-name">Results</h2>
+                <figcaption class="description-slider__description">Purus faucibus ornare suspendisse sed nisi lacus, sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper! Turpis massa sed elementum tempus egestas sed sed risus.</figcaption>
+              </figure>
+            </li>
+            <li class="description-slider__slide grid_2">
+              <figure class="description-slider__content">
+                <img class="description-slider__icon"alt="" src=""/>
+                <h2 class="description-slider__slide-name">Quality</h2>
+                <figcaption class="description-slider__description">Feugiat scelerisque varius morbi enim nunc, faucibus a pellentesque sit. Eu nisl nunc mi ipsum, faucibus vitae aliquet nec, ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis.</figcaption>
+              </figure>
+            </li>
+            <li class="description-slider__slide grid_2">
+              <figure class="description-slider__content">
+                <img class="description-slider__icon" alt="" src=""/>
+                <h2 class="description-slider__slide-name">Ecological</h2>
+                <figcaption class="description-slider__description">Volutpat sed cras ornare arcu dui vivamus arcu felis, bibendum ut tristique et, egestas quis ipsum suspendisse. Nunc eget lorem dolor, sed viverra ipsum nunc aliquet bibendum enim, facilisis gravida?</figcaption>
+              </figure>
+            </li>
+            <li class="description-slider__slide">
+              <figure class="description-slider__content">
+                <img class="description-slider__icon"alt="" src=""/>
+                <h2 class="description-slider__slide-name"></h2>
+                <figcaption class="description-slider__description"></figcaption>
+              </figure>
+            </li>
+            <li class="description-slider__slide">
+              <figure class="description-slider__content">
+                <img class="description-slider__icon" alt="" src=""/>
+                <h2 class="description-slider__slide-name"></h2>
+                <figcaption class="description-slider__description"></figcaption>
+              </figure>
+            </li>
+	  </ul>
+	  <div class="slider-bar"></div>
+	</div>
+
 	
 	<div class="goods-slider">
 	  
 	  <ul class="goods-slider__list">
-	    <li class="sliders-goodslist__name"></li>
-	    <li class="sliders-goodslist__name"></li>
-	    <li class="sliders-goodslist__name"></li>
-	    <li class="sliders-goodslist__name"></li>
-	    <li class="sliders-goodslist__name"></li>
-	    <li class="sliders-goodslist__name"></li>
+	    <li class="goods-slider__name"></li>
+	    <li class="goods-slider__name"></li>
+	    <li class="goods-slider__name"></li>
+	    <li class="goods-slider__name"></li>
+	    <li class="goods-slider__name"></li>
+	    <li class="goods-slider__name"></li>
 	  </ul>
 	  
-	  <div class="gs-wallpaper-screen">before and after elements are solution for left/right pointer</div>
-	  ul.goods-descriptor-list>li.goods-descriptor-list__*5>p.goods-descriptor-list__text
+	  <div class="gs-wallpaper-screen">before and after elements are
+	    solution for left/right pointer</div>
+	  
+	  <ul class="goods-descriptor-list">
+	    <li class="goods-descriptor-list__"><p class="goods-descriptor-list__text"></p></li>
+	    <li class="goods-descriptor-list__"><p class="goods-descriptor-list__text"></p></li>
+	    <li class="goods-descriptor-list__"><p class="goods-descriptor-list__text"></p></li>
+	    <li class="goods-descriptor-list__"><p class="goods-descriptor-list__text"></p></li>
+	    <li class="goods-descriptor-list__"><p class="goods-descriptor-list__text"></p></li>
+	    <li class="goods-descriptor-list__"><p class="goods-descriptor-list__text"></p></li>
+	  </ul>
 	</div>
 	
 	<aside class="callback">
 	  
 	  <ul class="side">
-	    <li><link class="callback__content" href="" rel="stylesheet"/></li>
-	    <li><link class="callback__content" href="" rel="stylesheet"/></li>
-	    <li><link class="callback__content" href="" rel="stylesheet"/></li>
-	    <li><link class="callback__content" href="" rel="stylesheet"/></li>
-	    <li><link class="callback__content" href="" rel="stylesheet"/></li>
-	    <li><link class="callback__content" href="" rel="stylesheet"/></li>
+	    <li class="side__menu-spot"><a href=""></a></li>
+	    <li class="side__menu-spot"><a href=""></a></li>
+	    <li class="side__menu-spot"><a href=""></a></li>
+	    <li class="side__menu-spot"><a href=""></a></li>
+	    <li class="side__menu-spot"><a href=""></a></li>
+	    <li class="side__menu-spot"><a href=""></a></li>
 	  </ul>
 	  
 	  <div class="destination-to-buy">
@@ -90,7 +162,7 @@
 	  </article>
 		  
 	</div>
-	
+	</div>	
       </main>
       
       <footer>
@@ -102,7 +174,7 @@
 	  <link class="tm-splat__callback2" href="" rel="stylesheet"/>
 	</div>
 	
-	<div class="link-to-social-group-vk">what will need inside?</div>
+	<div class="fb-vidjet">what will need inside?</div>
 	
 	<div class="trouble-callback">
 	  <p class="trouble-callback__introduces"></p>

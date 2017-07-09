@@ -1,0 +1,40 @@
+
+.srch-panel {
+    clear:both;
+    float:right;
+    position:relative;
+    bottom:39px;
+   
+    &__input {
+	width:133px;
+	height: 21px;
+	margin:0 10px 0 0;
+	box-shadow: inset 2px 2px 4px rgba(110,110,110, .1);
+	border:1px solid #EDEDED;
+	
+
+	&:focus {
+	    border: 1px #FFA6A6 solid;
+	    
+	}
+
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
