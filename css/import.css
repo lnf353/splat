@@ -1,6 +1,6 @@
 .splat-header {
   width: 100%;
-  border-bottom: 1px solid #D2D2D2;
+  border-bottom: 1px solid #E7E7FF;
   height: 160px;
   background-image: url(/img/header-background.png);
   padding: 40px 0 0 0; }
@@ -69,5 +69,113 @@
     .srch-panel__input:focus {
       border: 1px #FFA6A6 solid; }
 
+.main-splat {
+  width: 100%; }
+
+.slider-background {
+  background-image: url(/img/descr-slider-bg.png);
+  height: 450px;
+  padding-top: 30px;
+  border-bottom: 1px solid #E7E7FF; }
+
+.description-slider {
+  font-family: 'Raleway', sans-serif;
+  width: 960px;
+  line-height: 23px;
+  font-size: 15px;
+  color: #353535; }
+  .description-slider__icon {
+    position: absolute;
+    bottom: 0; }
+  .description-slider__dv {
+    position: relative;
+    width: 100px;
+    height: 90px; }
+  .description-slider__slide-name {
+    color: #353535;
+    font-size: 20px; }
+
+.sprite {
+  background-image: url(/img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block; }
+
+.sprite-light {
+  width: 80px;
+  height: 87px;
+  background-position: -5px -5px; }
+
+.sprite-light2 {
+  width: 80px;
+  height: 86px;
+  background-position: -95px -5px; }
+
+.sprite-science {
+  width: 43px;
+  height: 78px;
+  background-position: -185px -5px; }
+
+.sprite-splatInsideAround {
+  width: 62px;
+  height: 62px;
+  background-position: -95px -101px; }
+
+.sprite-thumb-up {
+  width: 50px;
+  height: 52px;
+  background-position: -185px -93px; }
+
+.sprite-thumpbUp2 {
+  width: 50px;
+  height: 55px;
+  background-position: -5px -155px; }
+
+.sprite-tree {
+  width: 42px;
+  height: 68px;
+  background-position: -167px -155px; }
+
+.sprite-tree2 {
+  width: 61px;
+  height: 76px;
+  background-position: -238px -5px; }
+
+.sprite-tree3 {
+  width: 66px;
+  height: 76px;
+  background-position: -219px -155px; }
+
+.sprite-waterDrop {
+  width: 40px;
+  height: 62px;
+  background-position: -5px -241px; }
+
+.sprite-waterDrop2 {
+  width: 44px;
+  height: 62px;
+  background-position: -55px -241px; }
+
 .modal-fixed-message {
   display: none; }
+
+.goods-slider-name-list {
+  list-style-type: none;
+  display: block;
+  margin: 40px auto 0 auto;
+  width: 960px;
+  height: 70px;
+  font-size: 21px; }
+  .goods-slider-name-list__name {
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    height: 70px;
+    line-height: 30px;
+    background: #eee;
+    margin: 0 0;
+    padding: 0 21px; }
+    .goods-slider-name-list__name:hover {
+      background: #EE2D54; }
+
+.gs-wallpaper-screen {
+  background-image: url(); }
