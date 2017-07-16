@@ -11,9 +11,13 @@
 @import 'sass/header/soc-links';
 @import 'sass/header/srch-panel';
 //main
-
+@import 'sass/main/main-splat';
 @import 'sass/main/description-slider';
+@import 'sass/main/slider-sprite';
 @import 'sass/main/modal-fixed-message';
+@import 'sass/main/goods-slider-name-list';
+@import 'sass/main/gs-wallpaper-screen.scss';
+
 //@import 'sass/main/slider-bar';
 //@import 'sass/main/goods-slider';
 //@import 'sass/main/goods-descriptor-list';

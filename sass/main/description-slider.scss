@@ -1,6 +1,36 @@
+.slider-background {
+    background-image:url(/img/descr-slider-bg.png);
+    height: 450px;
+    padding-top:30px;
+    border-bottom:1px solid $color-container-border;
+    
+}
 
 .description-slider {
-    
+    font-family: 'Raleway', sans-serif;
+    width:960px;
+    line-height: 23px;
+    font-size: 15px;
+    color: $font-color;
+    &__slide {
+
+    }
+    &__icon {
+	position:absolute;
+	bottom:0;
+    }
+    &__dv {
+	position:relative;
+	width: 100px;
+	height: 90px;
+
+    }
+    &__slide-name {
+	color: $font-color;
+	font-size:20px;
+	
+	
+    }
 }
 
 
