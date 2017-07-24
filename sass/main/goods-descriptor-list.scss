@@ -1,16 +1,23 @@
 
+
+
 .goods-descriptor-list {
-    display:inline-block;
-    height: 200px;
+    position:relative;
+    z-index:10;
+    display:block;
+    height: 210px;
+    width: 940px;
     padding: 38px 0 0 0;
     box-sizing:border-box;
     margin: 0 auto;
     list-style-type:none;
+    background-image:url(../img/goods-slider-descr-bg.png);
+    border-top:5px solid $color-container-border;
     
     &__text:last-child {
 	width: 180px;
 	float:right;
-		  padding: 0 0 0 15px;
+		  padding: 0 45px 0 0;
 
     }
 

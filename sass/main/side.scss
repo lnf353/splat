@@ -1,0 +1,32 @@
+
+.side {
+    width: 220px;
+    height: 220px;
+    background-image:url(../img/callback-aside-bg.png);
+    border-top:5px solid $color-container-border;
+    margin:0 auto;
+    
+    
+    box-sizing:border-box;
+    display:block;
+    list-style-type:none;
+    padding:14px 0 0 27px;
+    
+    &__menu-spot {
+	line-height:30px;
+	
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

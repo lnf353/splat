@@ -1,0 +1,59 @@
+
+.destination-to-buy {
+    margin: 20px 0 0 0;
+    height: 100px;
+    width: 220px;
+    background-image:url(../img/to-buy.png);
+    position:relative;
+
+    &__map-point {
+	margin:25px 0 0 25px;
+	background-size:100%;
+	float:left;
+    }
+    a {
+	color:$color-header-nav;
+	text-decoration:none;
+	font-size:22px;
+	margin:27px 0 0 15px;
+	display:inline-block;
+    }
+
+    p {
+	color:$font-color;
+	font-size: 16px;
+	display:block;
+	margin:0 0 0 96px;
+    }
+
+    &:before {
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	border-width:0 18px 18px 0;
+	border-style:solid;
+	border-color:#d7d8d9 #fff;
+
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
