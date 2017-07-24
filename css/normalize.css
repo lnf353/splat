@@ -327,7 +327,7 @@ legend {
              *  * 1. Add the correct display in IE 9-.
              *   * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
              *    */
-
+ul {padding-left:0;}
 progress {
     display: inline-block; /* 1 */
       vertical-align: baseline; /* 2 */

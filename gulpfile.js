@@ -3,11 +3,13 @@
 // export PATH=./node_modules/.bin:../node_modules/.bin:../../node_modules/bin:$PATH
 var gulp = require('gulp'),
  sass = require('gulp-sass'),
-  browserSync = require('browser-sync');
+  browserSync = require('browser-sync'),
+  csso = require('gulp-csso');
 
   gulp.task('ss', function() {
     return gulp.src('sass/import.scss') 
     .pipe(sass())
+    .pipe(csso())
     .pipe(gulp.dest('css/'))
     .pipe(browserSync.reload({stream: true})) 
   });

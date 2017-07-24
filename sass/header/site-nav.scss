@@ -1,7 +1,7 @@
 
 .site-nav {
     list-style-type:none;
-    font-size:14px;
+   
     margin: 0 0 0 0;
 
     &__content {
@@ -11,7 +11,7 @@
 	
 	a {
 	    color:$color-header-nav;
-	    
+	    font-size:15px;
 	    &:hover {
 		text-decoration:none;
 	    }

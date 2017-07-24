@@ -1,8 +1,8 @@
 
 
 @import 'sass/variables.scss';
-
-// splat-header
+//
+//// splat-header
 @import 'sass/header/splat-header';
 @import 'sass/header/lang';
 //@import 'sass/general-wrapper';
@@ -13,14 +13,14 @@
 //main
 @import 'sass/main/main-splat';
 @import 'sass/main/description-slider';
-@import 'sass/main/slider-sprite';
+@import 'sass/main/goods-slider-wrapper';
+@import 'sass/main/goods-name';
 @import 'sass/main/modal-fixed-message';
-@import 'sass/main/goods-slider-name-list';
-@import 'sass/main/gs-wallpaper-screen.scss';
+@import 'sass/main/goods-descriptor-list';
+@import 'sass/main/slider-bar';
+@import 'sass/main/goods-slider-image';
 
-//@import 'sass/main/slider-bar';
-//@import 'sass/main/goods-slider';
-//@import 'sass/main/goods-descriptor-list';
+
 //@import 'sass/main/callback';
 //@import 'sass/main/side';
 //@import 'sass/main/destination-to-buy';

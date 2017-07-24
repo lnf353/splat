@@ -1,0 +1,71 @@
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-light {
+    width: 80px;
+    height: 87px;
+    background-position: -5px -5px;
+}
+
+.sprite-light2 {
+    width: 80px;
+    height: 86px;
+    background-position: -95px -5px;
+}
+
+.sprite-science {
+    width: 43px;
+    height: 78px;
+    background-position: -185px -5px;
+}
+
+.sprite-splatInsideAround {
+    width: 62px;
+    height: 62px;
+    background-position: -95px -101px;
+}
+
+.sprite-thumb-up {
+    width: 50px;
+    height: 52px;
+    background-position: -185px -93px;
+}
+
+.sprite-thumpbUp2 {
+    width: 50px;
+    height: 55px;
+    background-position: -5px -155px;
+}
+
+.sprite-tree {
+    width: 42px;
+    height: 68px;
+    background-position: -167px -155px;
+}
+
+.sprite-tree2 {
+    width: 61px;
+    height: 76px;
+    background-position: -238px -5px;
+}
+
+.sprite-tree3 {
+    width: 66px;
+    height: 76px;
+    background-position: -219px -155px;
+}
+
+.sprite-waterDrop {
+    width: 40px;
+    height: 62px;
+    background-position: -5px -241px;
+}
+
+.sprite-waterDrop2 {
+    width: 44px;
+    height: 62px;
+    background-position: -55px -241px;
+}
