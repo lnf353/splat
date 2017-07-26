@@ -1,4 +1,8 @@
 
+body {
+    font-family:'Roboto', Sans Serif;
+}
+
 .logo {
     &__logo-pic {
 	width: 70px;
@@ -6,15 +10,24 @@
 		
     }
     &__tagline {
-	font-size:14px;
+	
 	display:inline-block;
 	width: 70px;
 	margin:4px 0 0 0;
 	color:$color-header-links;
 
-	}
-}
+    }
+    h1 {
+	
+	font-weight:300;
+	font-size:14px;
+	line-height:17px;
+    }
 
+    span {
+	font-size:13px;
+    }
+}
 
 
 

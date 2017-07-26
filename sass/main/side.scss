@@ -1,7 +1,10 @@
 
 .side {
+    padding:20px 0 0 30px;
     width: 220px;
+    box-sizing:border-box;
     height: 220px;
+    font-size:15px;
     background-image:url(../img/callback-aside-bg.png);
     border-top:5px solid $color-container-border;
     margin:0 auto;
@@ -10,11 +13,15 @@
     box-sizing:border-box;
     display:block;
     list-style-type:none;
-    padding:14px 0 0 27px;
+    
     
     &__menu-spot {
-	line-height:30px;
 	
+	line-height:28px;
+	
+    }
+    a {
+	color:$color-header-nav;
     }
 }
 

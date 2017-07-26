@@ -1,22 +1,22 @@
 
 
 .info-blog {
-
+   
     &__content {
-	margin-top:70px;
-	margin-left:109px;
+	display:inline-block;
+	margin:70px 0 70px 109px;
     }
     
     img {
-	
-	
 	margin:0;
 	padding:0;
-		
     }
+    
     &__article {
+
+	color:#4c4c4c;
+	font-family:'Roboto', Sans Serif;
 	white-space:pre-wrap;
-	font-family:Raleway;
 	font-size:18px;
 	line-height:30px;
 	margin: 0 0 0 30px;
@@ -24,6 +24,17 @@
 	display:block;
 	float:right;
 	
+    }
+    &__sign {
+	white-space:pre-wrap;
+	font-style:italic;
+	font-size:15px;
+	text-align:right;
+	line-height:18px;
+	float:right;
+	margin:-5px 15px 0 0;
+	displat:block;
+	color:#9B9B9B;
     }
 }
 

@@ -1,0 +1,50 @@
+
+.tm-splat {
+    
+    &__title {
+	display:block;
+	font-size:14px;
+	margin:0 0 0 50px;
+	color:$font-color;
+	
+	
+
+	
+    }
+    &__pic {
+	position:relative;
+	float:left;
+	background-size:100%;
+	width: 40px;
+	height:40px;
+    }
+    &__where {
+	font-size:14px;
+	color:$color-header-nav;
+	text-decoration:none;
+
+	margin:0 0 0 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
