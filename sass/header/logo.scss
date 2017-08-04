@@ -22,11 +22,15 @@ body {
 	font-weight:300;
 	font-size:14px;
 	line-height:17px;
+
     }
 
     span {
 	font-size:13px;
     }
+    	@media (min-width: 400px) {
+	    h1 {font-size:50px;}
+  }
 }
 
 
