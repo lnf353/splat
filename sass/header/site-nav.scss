@@ -16,6 +16,11 @@
 		text-decoration:none;
 	    }
 	}
+    }
+        @media screen and (min-width:300px) and (max-width:966px) {
+	    &__content{
+		width:135px;
+	    } 
 	}
 }
 

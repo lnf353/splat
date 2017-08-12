@@ -1,13 +1,18 @@
 
 body {
     font-family:'Roboto', Sans Serif;
-}
+    
+}  
 
 .logo {
+    
+    
+    
     &__logo-pic {
+	
 	width: 70px;
 	height: 66px;
-		
+	
     }
     &__tagline {
 	
@@ -28,10 +33,14 @@ body {
     span {
 	font-size:13px;
     }
-    	@media (min-width: 400px) {
-	    h1 {font-size:50px;}
-  }
+    @media (min-width:400px) and (max-width:965px) {
+	margin-left:20px;
+	
+
+	
+    }
 }
+
 
 
 
