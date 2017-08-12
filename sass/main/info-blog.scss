@@ -16,7 +16,7 @@
 
 	color:#4c4c4c;
 	font-family:'Roboto', Sans Serif;
-	white-space:pre-wrap;
+	
 	font-size:18px;
 	line-height:30px;
 	margin: 0 0 0 30px;
@@ -36,6 +36,22 @@
 	displat:block;
 	color:#9B9B9B;
     }
+	@media (min-width:400px) and (max-width:965px) {
+		&__content {
+			margin:70px 0 70px 41px;
+			
+			
+		}
+		&__article {
+			float:none;
+			margin:0 0 0 80px;
+			width: 380px;
+		}
+		img {float:left;
+			 
+			 width: 50px;
+			 height: 70px;}
+	}
 }
 
 

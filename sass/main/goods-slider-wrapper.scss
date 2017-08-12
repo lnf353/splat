@@ -5,8 +5,10 @@
     width: 960px;
     overflow:hidden;
     height: 440px;
-    margin:40px 0 0 35px ;
-     @media screen and (min-width:400px) and (max-width:966px) {
-	 width:717px;
+    margin:40px auto 0 auto;
+	@media (min-width:400px)and(max-width:965px){
+		margin:40px 0 0 35px;
+		width:717px;
 	}
+	
 }
