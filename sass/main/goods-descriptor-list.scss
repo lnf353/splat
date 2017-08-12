@@ -17,8 +17,9 @@
     &__text:last-child {
 	width: 180px;
 	float:right;
-		  padding: 0 45px 0 0;
-
+        padding: 0 45px 0 0;
+	
+ 
     }
 
     &__text:first-child {
@@ -33,6 +34,20 @@
 	color:$font-color;
 	
     }
+     @media screen and (min-width:400px) and (max-width:966px) {
+	 overflow:hidden;
+	 width: 717px;
+	 margin:0 0 0 35px;
+	 
+	 &__text:last-child {
+	     display:none;
+	 }
+	 &__text:first-child{
+	     margin:0 0 0 26px;
+	 }
+     }
+     
+    
 }
 
 

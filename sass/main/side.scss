@@ -23,6 +23,10 @@
     a {
 	color:$color-header-nav;
     }
+    @media (min-width:400px)and(max-width:965px) {
+	width:500px;
+	
+    }
 }
 
 
