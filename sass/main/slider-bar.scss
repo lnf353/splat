@@ -1,6 +1,6 @@
 
 .slider-bar-wrapper{
-    margin:45px 0 0 0;
+    margin:45px auto 0 auto;
     width:350px;
 }
 .slider-bar {
@@ -11,12 +11,13 @@
     cursor:pointer;
     
     &__scroll {
+	transition: margin-left 250ms;
 	background-color:#d0003e;
 	height: 5px;
 	
     }
      @media screen and (min-width:400px) and (max-width:966px) {
-	 margin: 45px 0 0 26%;
+	 margin: 45px 0 0 0px;
 	}
 }
 
