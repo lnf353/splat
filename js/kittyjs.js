@@ -20,6 +20,7 @@
     } else {
 	fix = lastPositionFix/iterationCount
     }
+    
     barSlide.style.width = barSlideWidth + "px";
     
     var kittyWidth = 240,// 150 + padding 
@@ -30,17 +31,17 @@
 	kittyLi = kittyBoss.querySelectorAll(".description-slider__slide");
     
     function kittyLeft(){
-	kPosition = Math.min(kPosition + kittyWidth * kittyCount,0)
+	kPosition = Math.min(kPosition + kittyWidth * kittyCount,0);
 	var leftAnimate = setInterval(function(){
 	    currentAnimate=true;
-	    animationIndex += 20;
-	    kittyUl.style.marginLeft = animationIndex + "px"
+	    animationIndex += 30;
+	    kittyUl.style.marginLeft = animationIndex + "px";
 	    if(animationIndex>=kPosition){
-		kittyUl.style.marginLeft = animationIndex + "px"
+		kittyUl.style.marginLeft = animationIndex + "px";
 		currentAnimate = false; 		
 		clearInterval(leftAnimate);
 	    } 
-	},5)
+	},7);
     }
 
     function kittyRight(){
@@ -49,19 +50,14 @@
 
 	var rightAnimate = setTimeout(function ra(){
 	    currentAnimate = true;
-	    animationIndex -= 20;
-	    kittyUl.style.marginLeft = animationIndex + "px"
-	    rightAnimate = setTimeout(ra,4)
+	    animationIndex -= 30;
+	    kittyUl.style.marginLeft = animationIndex + "px";
+	    rightAnimate = setTimeout(ra,7);
 	    if(animationIndex <= kPosition){
 		currentAnimate = false; 		
 		clearInterval(rightAnimate);
 	    } 
-	},4)
-	
-	
-	
-	
-
+	},7);
     }
     
     var right = function(e) {
@@ -74,7 +70,7 @@
 	position = fix + cursorPosition * barSlideWidth;
 	barSlide.style.marginLeft = position + fix + "px";
 	kittyRight();
-    }
+    };
 
     var left = function(e) {
 	if(currentAnimate) return; 
@@ -85,9 +81,10 @@
 	position = cursorPosition * barSlideWidth - fix;
 	barSlide.style.marginLeft = position - fix + "px";
 	kittyLeft();
-    }
-    bar.addEventListener("click",right);
-    bar.addEventListener("click",left);
+    };
+    
+    bar.addEventListener("click", right);
+    bar.addEventListener("click", left);
 })();
 
 

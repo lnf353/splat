@@ -5,21 +5,25 @@
     margin:0 auto;
     position:relative;
     z-index:10;
-    width: 940px;
+    width: 3940px;
     display:block;
     height:70px;
     list-style-type:none;
     background: #f2f4f5;
     text-transform:uppercase;
     font-family:'Raleway',sans-serif;
-    overflow: hidden;
-   
+    
     &__text {
 	line-height:70px;
 	float:left;
 	padding: 0 25px;
 	font-size:21px;
 	
+    }
+    
+    &--hight-light {
+	transition:all .5s;
+	background-color:$color-header-nav;
     }
 }
 
