@@ -6,6 +6,7 @@
     bottom:39px;
    
     &__input {
+	transition: all 250ms;
 	width:133px;
 	height: 21px;
 	margin:0 10px 0 0;
@@ -19,6 +20,10 @@
 	}
 
     }
+    &--to-extend {
+	padding-right:40px;
+	}
+    
     @media screen and (min-width:300px) and (max-width:966px) {
 	margin-right:200px;
 	

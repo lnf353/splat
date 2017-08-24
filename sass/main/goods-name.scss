@@ -12,7 +12,8 @@
     background: #f2f4f5;
     text-transform:uppercase;
     font-family:'Raleway',sans-serif;
-    
+    transition: margin-left 250ms;    
+
     &__text {
 	line-height:70px;
 	float:left;
